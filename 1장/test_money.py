@@ -49,6 +49,8 @@ class Dollar :
 
 
 class TestMoney(unittest.TestCase) : 
+
+    # 5 USD * 2 = 10 USD가 되는지를 테스트하는 메소드
     def testMultiplication(self) : 
 
         # 순서 1
